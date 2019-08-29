@@ -1,6 +1,6 @@
-#Iniciando o curso Go Stack da Rocketseat.
+# Iniciando o curso Go Stack da Rocketseat.
 
-#Primeiro módulo
+# Primeiro módulo
 
 - Criar uma API simulando um CRUD de usuários.
   #Primeiro desafio(Em breve)
