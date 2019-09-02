@@ -1,0 +1,16 @@
+{
+  "name": "Desafio_Node_01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Igor Walace Cuevas <igor.w.cuevas@gmail.com> (https://github.com/IgorWalaceCuevas)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
