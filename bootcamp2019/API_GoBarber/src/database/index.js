@@ -22,14 +22,11 @@ class Database {
       .map(model => model.associate && model.associate(this.connection.models));
   }
   mongo() {
-    this.mongoConnection = mongoose.connect(
-      'mongodb://192.168.99.102:27017/gobarber',
-      {
-        useNewUrlParser: true,
-        useFindAndModify: true,
-        useUnifiedTopology: true,
-      }
-    );
+    this.mongoConnection = mongoose.connect(process.env.MONGO_URL, {
+      useNewUrlParser: true,
+      useFindAndModify: true,
+      useUnifiedTopology: true,
+    });
   }
 }
 
