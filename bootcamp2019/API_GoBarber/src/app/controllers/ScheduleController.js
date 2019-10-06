@@ -14,9 +14,6 @@ class ScheduleController {
     const { date } = req.query;
     const parsedDate = parseISO(date);
 
-    //2019-09-24T00:00:00-03:00
-    //2019-09-24T00:00:00-03:00
-
     const Appointments = await Appointment.findAll({
       where: {
         provider_id: req.userId,
