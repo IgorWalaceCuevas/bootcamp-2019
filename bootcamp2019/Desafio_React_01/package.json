@@ -1,0 +1,32 @@
+{
+  "name": "Desafio_React_01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Igor Walace Cuevas <igor.w.cuevas@gmail.com> (https://github.com/IgorWalaceCuevas)",
+  "license": "MIT",
+  "scripts": {
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "host-dev": "webpack-dev-server --mode development",
+    "host-prod": "webpack-dev-server --mode production"
+  },
+  "dependencies": {
+    "file-loader": "^5.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
